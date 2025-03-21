@@ -9,7 +9,7 @@ def multiply(x, y):
 
 def divide(x, y):
     if y == 0:
-        return "error: division by zero"
+        return "Error: Cannot divide by zero"
     return x / y
 
 def calculator(_name_=None):
@@ -41,7 +41,7 @@ def calculator(_name_=None):
         else:
             print("Invalid choice. Please select 1, 2, 3, or 4.")
 
-    if _name_ == "__main__":
+    if __name__ == "__main__":
         calculator()
 
 
